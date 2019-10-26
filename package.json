@@ -1,0 +1,31 @@
+{
+  "name": "chain-fns",
+  "version": "1.0.0",
+  "description": "Chain a list of handlers with each other",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/saxjst/chain-fns.git"
+  },
+  "author": {
+    "name": "saxjst"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/saxjst/chain-fns/issues"
+  },
+  "homepage": "https://github.com/saxjst/chain-fns#readme",
+  "engines": {
+    "node": ">=10.16.3"
+  },
+  "keywords": [
+    "chain",
+    "fp"
+  ],
+  "devDependencies": {
+    "jest": "^24.8.0"
+  }
+}
