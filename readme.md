@@ -1,4 +1,7 @@
-# chain-fns [![Build Status](https://travis-ci.org/saxjst/chain-fns.svg?branch=master)](https://travis-ci.org/saxjst/chain-fns)
+# chain-fns
+
+[![Build Status](https://travis-ci.org/saxjst/chain-fns.svg?branch=master)](https://travis-ci.org/saxjst/chain-fns)
+[![Coverage Status](https://coveralls.io/repos/github/saxjst/chain-fns/badge.svg?branch=master)](https://coveralls.io/github/saxjst/chain-fns?branch=master)
 
 > Create a chain of responsability by chaining a list of handlers
 
