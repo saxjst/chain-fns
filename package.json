@@ -4,7 +4,9 @@
   "description": "Chain a list of handlers with each other",
   "main": "index.js",
   "scripts": {
-    "test": "jest"
+    "test": "jest",
+    "test:coverage": "jest --coverage",
+    "test:coveralls": "jest --coverage --coverageReporters=text-lcov | coveralls"
   },
   "repository": {
     "type": "git",
@@ -26,6 +28,7 @@
     "fp"
   ],
   "devDependencies": {
+    "coveralls": "^3.0.7",
     "jest": "^24.8.0"
   }
 }
