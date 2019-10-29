@@ -3,6 +3,7 @@
 [![Build Status](https://travis-ci.org/saxjst/chain-fns.svg?branch=master)](https://travis-ci.org/saxjst/chain-fns)
 [![Coverage Status](https://coveralls.io/repos/github/saxjst/chain-fns/badge.svg?branch=master)](https://coveralls.io/github/saxjst/chain-fns?branch=master)
 [![Maintainability](https://api.codeclimate.com/v1/badges/841af7743a474bb61775/maintainability)](https://codeclimate.com/github/saxjst/chain-fns/maintainability)
+[![Language grade: JavaScript](https://img.shields.io/lgtm/grade/javascript/g/saxjst/chain-fns.svg?logo=lgtm&logoWidth=18)](https://lgtm.com/projects/g/saxjst/chain-fns/context:javascript)
 [![tested with jest](https://img.shields.io/badge/tested_with-jest-99424f.svg)](https://github.com/facebook/jest)
 [![code style: prettier](https://img.shields.io/badge/code_style-prettier-ff69b4.svg)](https://github.com/prettier/prettier/)
 
