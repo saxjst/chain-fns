@@ -12,13 +12,13 @@
 ## Install
 
 ```
-$ npm install chain-fns
+$ npm install s-chain-fns
 ```
 
 ## Usage
 
 ```js
-const chainFns = require("chain-fns");
+const chainFns = require("s-chain-fns");
 
 const divideByTwo = next => num => next(num / 2);
 const addOne = next => num => next(num + 1);
@@ -27,18 +27,22 @@ const thousandTimes = next => num => next(num * 1000);
 
 const operations = chainFns([double, addOne, stopChainIfOdd, thousandTimes]);
 
-operations(10);
-//=> 6000
+operations(10); //=> 6000
 
-operations(12);
-//=> 7
+operations(12); //=> 7
 ```
 
 ## API
 
-### chainFns(fns)
+### chainFns(fns) ⇒ <code>Function</code>
 
-Returns the first handler chains with the others
+Chain a list of handlers with each other
+
+**Returns**: <code>Function</code> - First handler chains with the others
+
+| Param | Type                    | Description               |
+| ----- | ----------------------- | ------------------------- |
+| fns   | <code>Function[]</code> | List of handlers to chain |
 
 ### fns
 
@@ -47,7 +51,9 @@ Type: `Function[]`
 Each functions should be curried with the first parameter being the next function they are chain with.
 
 ```js
-const handler1 = next => (param1, param2, param3, ...) => ...
+const handler1 = next => (param1, param2, param3, ...) => {
+  // content of the function
+}
 ```
 
 ## License
