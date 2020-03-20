@@ -28,7 +28,7 @@
     "fp"
   ],
   "devDependencies": {
-    "coveralls": "3.0.8",
+    "coveralls": "3.0.11",
     "jest": "25.1.0"
   }
 }
